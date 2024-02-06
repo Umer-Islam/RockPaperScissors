@@ -53,4 +53,7 @@ function playGame(choice) {
     else{
       resultDisplay.style.color= 'black'
     }
+  if(playerScore===100 || computerScore ===100){
+    alert('Give me a break!')
+  }
 }
